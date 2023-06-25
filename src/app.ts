@@ -1,5 +1,5 @@
-import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
+import express, { Application, Request, Response } from 'express'
 import usersRouter from './app/modules/users/users.route'
 const app: Application = express()
 
@@ -11,6 +11,7 @@ app.use(express.urlencoded({ extended: true }))
 
 // Application Routes
 app.use('/api/v1/users/', usersRouter)
+// console.log(process.env)
 
 // Testing
 app.get('/', async (req: Request, res: Response) => {
