@@ -32,6 +32,7 @@ const globalErrorHandler: ErrorRequestHandler = (
   } else if (error instanceof ZodError) {
     const simplifiedError = handleZodError(error);
     statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
   } else if (error instanceof ApiError) {
     statusCode = error?.statusCode;
@@ -55,13 +56,15 @@ const globalErrorHandler: ErrorRequestHandler = (
         ]
       : [];
   }
-  next();
+
   res.status(statusCode).json({
     success: false,
     message,
     errorMessages,
     stack: config.env !== 'production' ? error?.stack : undefined,
   });
+
+  next();
 };
 
 export default globalErrorHandler;
