@@ -1,75 +1,15 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\.92a8639521b6e772984d6d8d94882dfd5080350f-audit.json",
-  "files": [
-    {
-      "date": 1688416809301,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-07-02-success.log",
-      "hash": "2687d529af0c56962dc6e627c1e8e689e3a98cf19047f1717d78aca73705724e"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1688419689148,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-07-03-success.log",
-      "hash": "84a5f6bac997a6bc83b76c29ef0d1f0d589e605ebd5f9e8dc59352e92f9a4497"
-    },
-    {
-      "date": 1688491322524,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-07-23-success.log",
-      "hash": "4f0214f29a11e2429d96cc1793150d6ec245faef4214779c19dbb59b1958be77"
-    },
-    {
-      "date": 1688493668149,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-05-07-00-success.log",
-      "hash": "e3d577592753b43f92a54e45392d1614a16d378443c4d9f545376ac61f1bed65"
-    },
-    {
-      "date": 1688501722145,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-05-07-02-success.log",
-      "hash": "8dcb87eb38ef6615aa4be7277c613faa7f1c78134ea9923085eb0ff0c08f7973"
-    },
-    {
-      "date": 1688506370370,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-05-07-03-success.log",
-      "hash": "1a6cfd00c01edd360a255fb83ea4feb73f876a1463189483ac232245d7c43ba5"
-    },
-    {
-      "date": 1688510098698,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-05-07-04-success.log",
-      "hash": "12d34d483f0b1fb7462fc17f3dc9e9ce0d71a3e6f36a899b46eabd213156f4f4"
-    },
-    {
-      "date": 1688512888481,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-05-07-05-success.log",
-      "hash": "19511f5c28184eeef0b4d7332d26208a10650cb582c22ccbb6cb22d6e6df4178"
-    },
-    {
-      "date": 1688570561212,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-05-07-21-success.log",
-      "hash": "7423f340230b043cf87c120648434c469b1ecd784ec52e167adb37e0958e629e"
-    },
-    {
-      "date": 1688579218629,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-05-07-23-success.log",
-      "hash": "167b708979e57e058c1b96d9b8291175e2beeecd5eb587d4f5d6bb4ca8c3c016"
-    },
-    {
-      "date": 1688580036671,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-07-00-success.log",
-      "hash": "5e65e0641a87f881fb8b2cca324c4c67a5b74301dff21c7ea740a93e8e89ab30"
-    },
-    {
-      "date": 1688596144853,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-07-04-success.log",
-      "hash": "77f14762336c82dc612c757a04b5d8fcae863a96072cebb5da1ce38d50473d9d"
-    },
-    {
-      "date": 1688598612720,
-      "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-07-05-success.log",
-      "hash": "34d2f37954eed1f682f296267d259631e9507b2185799b3cc3a40b6eee317ba1"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\.92a8639521b6e772984d6d8d94882dfd5080350f-audit.json",
+    "files": [
+        {
+            "date": 1688772274794,
+            "name": "F:\\Next Level Projects\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-08-07-05-success.log",
+            "hash": "b07d51bf6aefc4f7ba89c6cd83b96435e9e1a211553e601711c8dd90b1187a63"
+        }
+    ],
+    "hashType": "sha256"
 }
